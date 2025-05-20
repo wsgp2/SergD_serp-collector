@@ -1,0 +1,24 @@
+{
+  "name": "serp-collector",
+  "version": "1.0.0",
+  "description": "Инструмент для сбора данных о конкурентах в нише кредитования ИП/ООО",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "collect": "node src/index.js collect",
+    "process": "node src/index.js process",
+    "clean": "rm -rf data/results/*"
+  },
+  "keywords": [
+    "serp",
+    "google",
+    "serpapi",
+    "parser"
+  ],
+  "author": "SergD",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
+}
